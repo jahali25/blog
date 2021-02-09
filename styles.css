@@ -67,7 +67,7 @@
 .baptism_page p {
   padding: 0 12%;
 }
-h1, h3 {
+h1, h3, h6 {
   text-align: center;
 }
 
@@ -89,6 +89,7 @@ h1 {
   display: inline-block;
   text-align: center;
   margin: 10px;
+  padding: 0;
   background-color: purple;
 
   color: white;
@@ -110,6 +111,29 @@ h1 {
 
 .school {
   margin: 0 10px;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  font-family: 'Oswald', serif;
+  margin-bottom: 20px;
+}
+
+h3 {
+  font-family: 'Lobster', cursive;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: center;
+}
+
+.baptism_page
+h1, h3, p {
+  margin-bottom: 20px;
 }
 
 @media screen and (max-width: 700px) and (min-width: 600px) {
